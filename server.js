@@ -7,6 +7,7 @@ const path = require("path");
 // Sets up the Express App
 // =============================================================
 const app = express();
+// 'process.env.PORT' is necessary for deploying apps to Heroku
 const PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
